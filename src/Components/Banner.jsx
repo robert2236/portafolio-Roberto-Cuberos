@@ -7,7 +7,7 @@ import TrackVisibility from 'react-on-screen';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Cv from '../../CV/CV.pdf';
-import banner1 from './Img/img/banner1.png';
+import banner1 from '../../Img/img/banner1.png';
 
 const Banner = () => {
 

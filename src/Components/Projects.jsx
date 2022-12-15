@@ -1,8 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projImg1 from "../../Img/img/project-img1.png";
-import projImg2 from "../../Img/img/project-img2.png";
-import projImg3 from "../../Img/img/project-img3.png";
 import colorSharp2 from "../../Img/img/color-sharp2.png";
 import Ecommerce from "../../Img/img/Ecommerce.png"
 import Pokedex from '../../Img/img/Pokedex2.png'
