@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import github from '../../Img/img/github.png'
-import linkedin from '../../Img/img/linkedin.png'
-import instagram from '../../Img/img/instagram.png'
+import github from '../../Img/img/github.png';
+import linkedin from '../../Img/img/linkedin.png';
+import instagram from '../../Img/img/instagram.png';
+import logo from '../../Img/img/logo.png';
 
 
 const NavBar = () => {
@@ -34,7 +35,7 @@ const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
     <Container>
       <Navbar.Brand href="#home">
-       <img  src="./Img/img/logo.png" alt="logo"/>
+       <img  src={logo} alt="logo"/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav">
         <span className='navbar-toggler-icon'></span>

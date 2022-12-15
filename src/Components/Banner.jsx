@@ -6,7 +6,8 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Cv from '../../CV/CV.pdf'
+import Cv from '../../CV/CV.pdf';
+import banner1 from './Img/img/banner1.png';
 
 const Banner = () => {
 
@@ -76,7 +77,7 @@ const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src='./Img/img/banner1.png' alt="Header Img"className='responsive' />
+                  <img src={banner1} alt="Header Img"className='responsive' />
                 </div>}
             </TrackVisibility>
           </Col>
