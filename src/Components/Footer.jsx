@@ -21,7 +21,7 @@ const Footer = () => {
     <Container>
       <Row className="align-items-center">
         <Col size={12} sm={6}>
-          <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}> <img  src="./img/img/logo.png" alt="logo"/></Nav.Link>
+          <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}> <img  src="./Img/img/logo.png" alt="logo"/></Nav.Link>
         </Col>
         <Col size={12} sm={6} className="text-center text-sm-end">
           <div className="social-icon" style={{marginBottom: "20px"}}>
